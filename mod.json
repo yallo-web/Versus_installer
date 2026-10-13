@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "geode.node-ids": ">=v1.22.0"
+  },
+  "description": "First-install downloader. Open Versus to download and install the latest complete version, then restart Geometry Dash. Also repairs a stuck mobile update.",
+  "developer": "Tipp7",
+  "gd": {
+    "android": "2.2081",
+    "ios": "2.2081",
+    "mac": "2.2081",
+    "win": "2.2081"
+  },
+  "geode": "5.7.1",
+  "id": "tipp7.versus",
+  "name": "Versus Installer",
+  "resources": {
+    "files": [
+      "resources/updater/*"
+    ]
+  },
+  "settings": {
+    "firebase-api-key": {
+      "default": "AIzaSyD1yoiFEhGa0oFm6XCzJ9DgRXs92UIvzpY",
+      "description": "Firebase public Web API key for Versus authentication.",
+      "name": "Server API Key",
+      "type": "string"
+    }
+  },
+  "version": "v1.4.0"
+}
